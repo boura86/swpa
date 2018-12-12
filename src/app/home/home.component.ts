@@ -37,8 +37,8 @@ export class HomeComponent implements OnInit {
     
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
+
   getRef(fullPageRef) {
     console.log('iicii');
     this.fullpage_api = fullPageRef;
